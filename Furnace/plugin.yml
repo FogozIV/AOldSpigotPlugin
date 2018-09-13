@@ -1,0 +1,47 @@
+name: Furnace
+main: be.fogoziv.main.Plugin
+version: 1.0.0
+description: Plugin commandes /furnace
+author: Fogoziv
+commands:
+  furnace:
+    description: Commande pour cuire
+    permission: furnace.allow
+  unenchanting:
+    description: commande pour desenchanter
+    permission: unenchanting.allow
+  duplicate:
+    description: duplique un livre si 40 lvl
+    permission: duplicate.allow
+  craft:
+    description: ouvre une table de craft
+    permission: craft.allow
+  enderchest:
+    description: ouvre le ec
+    permission: ec.allow
+    aliases:
+    - ec
+  backpack:
+    description: ouvre le backpack
+    permission: bp.allow
+    aliases:
+    - bp
+permissions:
+  furnace.allow:
+    description: autorise la commande
+    default: true
+  unenchanting.allow:
+    description: autorise la commande
+    default: true
+  duplicate.allow:
+    description: autorise la commande
+    default: true
+  craft.allow:
+    description: autorise la commande
+    default: true
+  ec.allow:
+    description: autorise la commande
+    default: true
+  bp.allow:
+    description: autorise la commande
+    default: true
